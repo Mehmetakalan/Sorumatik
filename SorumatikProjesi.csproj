@@ -1,0 +1,233 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{6876C66C-D703-4FD8-BBAF-E15335097F3C}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Sorumatik_Projesi</RootNamespace>
+    <AssemblyName>Sorumatik Projesi</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>kullanıcı.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="MetroFramework">
+      <HintPath>..\From Skin\MetroFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="MetroFramework.Design">
+      <HintPath>..\From Skin\MetroFramework.Design.dll</HintPath>
+    </Reference>
+    <Reference Include="MetroFramework.Fonts">
+      <HintPath>..\From Skin\MetroFramework.Fonts.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="anaform.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="anaform.Designer.cs">
+      <DependentUpon>anaform.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BizKimiz.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BizKimiz.Designer.cs">
+      <DependentUpon>BizKimiz.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Kulp_ders.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Kulp_ders.Designer.cs">
+      <DependentUpon>Kulp_ders.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Kulp_islemler.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Kulp_islemler.Designer.cs">
+      <DependentUpon>Kulp_islemler.cs</DependentUpon>
+    </Compile>
+    <Compile Include="db.cs" />
+    <Compile Include="Kulp_sinif.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Kulp_sinif.Designer.cs">
+      <DependentUpon>Kulp_sinif.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="yonetici_paneli.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="yonetici_paneli.Designer.cs">
+      <DependentUpon>yonetici_paneli.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Yonp_islemler.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Yonp_islemler.Designer.cs">
+      <DependentUpon>Yonp_islemler.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="anaform.resx">
+      <DependentUpon>anaform.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BizKimiz.resx">
+      <DependentUpon>BizKimiz.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Kulp_ders.resx">
+      <DependentUpon>Kulp_ders.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Kulp_islemler.resx">
+      <DependentUpon>Kulp_islemler.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Kulp_sinif.resx">
+      <DependentUpon>Kulp_sinif.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="yonetici_paneli.resx">
+      <DependentUpon>yonetici_paneli.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Yonp_islemler.resx">
+      <DependentUpon>Yonp_islemler.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="kullanıcı.ico" />
+    <None Include="Resources\SoruyuKaydet.fw.png" />
+    <None Include="Resources\SınıfButon.fw.png" />
+    <None Include="Resources\YöneticiPaneliBilgi.fw.png" />
+    <None Include="Resources\YöneticiPaneliBanner1.png" />
+    <None Include="Resources\YöneticiPaneliBanner.png" />
+    <None Include="Resources\SorularıGetir.png" />
+    <None Include="Resources\SoruButon.png" />
+    <None Include="Resources\İnkılap.fw.png" />
+    <None Include="Resources\Tarih.fw.png" />
+    <None Include="Resources\SinifSec.png" />
+    <None Include="Resources\SorumatikBanner.png" />
+    <None Include="Resources\İnkılap.png" />
+    <None Include="Resources\Tarih.png" />
+    <None Include="Resources\Salimehmet.fw.png" />
+    <None Include="Resources\BizKimiz.png" />
+    <None Include="Resources\BiziDestekle.fw.png" />
+    <None Include="Resources\AltBaslikk.fw.png" />
+    <None Include="Resources\Mehmet.fw.png" />
+    <None Include="Resources\MehmetArka.png" />
+    <None Include="Resources\MehmetOn.png" />
+    <None Include="Resources\Salim.fw.png" />
+    <None Include="Resources\SalimArka.png" />
+    <None Include="Resources\SalimOn.png" />
+    <None Include="Resources\Matematik.png" />
+    <None Include="Resources\Biyoloji.png" />
+    <None Include="Resources\Fizik.png" />
+    <None Include="Resources\Kimya.png" />
+    <None Include="Resources\Edebiyat.png" />
+    <None Include="Resources\Dilveanlatim.png" />
+    <None Include="Resources\Geometri.png" />
+    <None Include="Resources\Coğrafya.png" />
+    <None Include="Resources\Ders.png" />
+    <None Include="Resources\Fizik1.png" />
+    <None Include="Resources\Matematik1.png" />
+    <None Include="Resources\Cografya.fw.png" />
+    <None Include="Resources\Matematik.fw.png" />
+    <None Include="Resources\Biyoloji.fw.png" />
+    <None Include="Resources\Dil ve Anlatimi.fw.png" />
+    <None Include="Resources\Matematik.fw1.png" />
+    <None Include="Resources\Biyoloji.fw1.png" />
+    <None Include="Resources\Fizik.fw.png" />
+    <None Include="Resources\Geometri.fw.png" />
+    <None Include="Resources\Coğrafya.fw.png" />
+    <None Include="Resources\Kimya.fw.png" />
+    <None Include="Resources\Edebiyat.fw.png" />
+    <None Include="Resources\DersUstBanner.png" />
+    <None Include="Resources\DersUstBannerr.png" />
+    <None Include="Resources\DersSec.fw.png" />
+    <None Include="Resources\CevapButon.png" />
+    <None Include="Resources\PassButon.png" />
+    <None Include="Resources\DevamButon.png" />
+    <None Include="Resources\Cerceve.png" />
+    <None Include="Resources\asdd.fw.png" />
+    <None Include="Resources\GirisButon.fw.png" />
+    <None Include="Resources\GeriButon1.png" />
+    <None Include="Resources\GirisFORMM.fw.png" />
+    <None Include="Resources\GirisFormHosgeldin.fw.png" />
+    <None Include="Resources\GirisFormHosgeldinn.fw.png" />
+    <None Include="Resources\EkleButon.png" />
+    <None Include="Resources\DersButton.fw.png" />
+    <None Include="Resources\AraButon.fw.png" />
+    <None Include="Resources\AraButon.fw1.png" />
+    <None Include="Resources\SecileniSil.fw.png" />
+    <Content Include="Resources\Sinif10.png" />
+    <Content Include="Resources\Sinif11.png" />
+    <Content Include="Resources\Sinif12.png" />
+    <Content Include="Resources\Sinif9.png" />
+    <None Include="Resources\GeriButon.png" />
+    <None Include="Resources\SınıfSecimiUstGorsel.png" />
+    <None Include="Resources\AltBaslik.fw.png" />
+    <None Include="Resources\KullanıcıPaneliButon.png" />
+    <None Include="Resources\YoneticiPaneliButon.png" />
+    <None Include="Resources\UstBaslikSorumati.png" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
