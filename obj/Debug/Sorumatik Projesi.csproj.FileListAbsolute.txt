@@ -1,0 +1,32 @@
+E:\Sorumatik Projesi\Sorumatik Projesi\bin\Debug\Sorumatik Projesi.exe.config
+E:\Sorumatik Projesi\Sorumatik Projesi\bin\Debug\Sorumatik Projesi.exe
+E:\Sorumatik Projesi\Sorumatik Projesi\bin\Debug\Sorumatik Projesi.pdb
+E:\Sorumatik Projesi\Sorumatik Projesi\bin\Debug\MetroFramework.Design.dll
+E:\Sorumatik Projesi\Sorumatik Projesi\bin\Debug\MetroFramework.dll
+E:\Sorumatik Projesi\Sorumatik Projesi\bin\Debug\MetroFramework.Fonts.dll
+E:\Sorumatik Projesi\Sorumatik Projesi\obj\Debug\Sorumatik_Projesi.anaform.resources
+E:\Sorumatik Projesi\Sorumatik Projesi\obj\Debug\Sorumatik_Projesi.Properties.Resources.resources
+E:\Sorumatik Projesi\Sorumatik Projesi\obj\Debug\Sorumatik Projesi.csproj.GenerateResource.Cache
+E:\Sorumatik Projesi\Sorumatik Projesi\obj\Debug\Sorumatik Projesi.exe
+E:\Sorumatik Projesi\Sorumatik Projesi\obj\Debug\Sorumatik Projesi.pdb
+E:\Sorumatik Projesi\Sorumatik Projesi\obj\Debug\Sorumatik_Projesi.yonetici_paneli.resources
+E:\Sorumatik Projesi\Sorumatik Projesi\obj\Debug\Sorumatik_Projesi.Yonp_islemler.resources
+E:\Sorumatik Projesi\Sorumatik Projesi\obj\Debug\Sorumatik_Projesi.Kulp_islemler.resources
+C:\Users\ogrenci\Desktop\Sorumatik Projesi\Sorumatik Projesi\bin\Debug\Sorumatik Projesi.exe.config
+C:\Users\ogrenci\Desktop\Sorumatik Projesi\Sorumatik Projesi\obj\Debug\Sorumatik Projesi.exe
+C:\Users\ogrenci\Desktop\Sorumatik Projesi\Sorumatik Projesi\obj\Debug\Sorumatik Projesi.pdb
+C:\Users\ogrenci\Desktop\Sorumatik Projesi\Sorumatik Projesi\bin\Debug\Sorumatik Projesi.exe
+C:\Users\ogrenci\Desktop\Sorumatik Projesi\Sorumatik Projesi\bin\Debug\Sorumatik Projesi.pdb
+C:\Users\ogrenci\Desktop\Sorumatik Projesi\Sorumatik Projesi\bin\Debug\MetroFramework.Design.dll
+C:\Users\ogrenci\Desktop\Sorumatik Projesi\Sorumatik Projesi\bin\Debug\MetroFramework.dll
+C:\Users\ogrenci\Desktop\Sorumatik Projesi\Sorumatik Projesi\bin\Debug\MetroFramework.Fonts.dll
+C:\Users\ogrenci\Desktop\Sorumatik Projesi\Sorumatik Projesi\obj\Debug\Sorumatik Projesi.csprojResolveAssemblyReference.cache
+C:\Users\ogrenci\Desktop\Sorumatik Projesi\Sorumatik Projesi\obj\Debug\Sorumatik_Projesi.anaform.resources
+C:\Users\ogrenci\Desktop\Sorumatik Projesi\Sorumatik Projesi\obj\Debug\Sorumatik_Projesi.Kulp_islemler.resources
+C:\Users\ogrenci\Desktop\Sorumatik Projesi\Sorumatik Projesi\obj\Debug\Sorumatik_Projesi.Properties.Resources.resources
+C:\Users\ogrenci\Desktop\Sorumatik Projesi\Sorumatik Projesi\obj\Debug\Sorumatik_Projesi.yonetici_paneli.resources
+C:\Users\ogrenci\Desktop\Sorumatik Projesi\Sorumatik Projesi\obj\Debug\Sorumatik_Projesi.Yonp_islemler.resources
+C:\Users\ogrenci\Desktop\Sorumatik Projesi\Sorumatik Projesi\obj\Debug\Sorumatik Projesi.csproj.GenerateResource.Cache
+E:\Sorumatik Projesi\Sorumatik Projesi\obj\Debug\Sorumatik_Projesi.Kulp_ders.resources
+E:\Sorumatik Projesi\Sorumatik Projesi\obj\Debug\Sorumatik_Projesi.Kulp_sinif.resources
+E:\Sorumatik Projesi\Sorumatik Projesi\obj\Debug\Sorumatik Projesi.csprojResolveAssemblyReference.cache
